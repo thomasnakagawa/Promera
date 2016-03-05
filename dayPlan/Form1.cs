@@ -15,7 +15,23 @@ namespace dayPlan
         public Form1()
         {
             InitializeComponent();
+            locationBox.
+        }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //if any of the input boxes are blank, then show the error label.
+            if(locationBox.Text == "" ||
+                groupBox.Text == "" ||
+                activityBox.Text == "" ||
+                budgetBox.Text == "")
+            {
+                errorLabel.Visible = true;
+                return;
+            }
+
+            //no bad inputs, so turn the error label off
+            errorLabel.Visible = false;
         }
     }
 }
