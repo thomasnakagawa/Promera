@@ -7,3 +7,4 @@ c:\users\thomas\documents\visual studio 2015\Projects\dayPlan\dayPlan\obj\Debug\
 c:\users\thomas\documents\visual studio 2015\Projects\dayPlan\dayPlan\obj\Debug\dayPlan.csproj.GenerateResource.Cache
 c:\users\thomas\documents\visual studio 2015\Projects\dayPlan\dayPlan\obj\Debug\dayPlan.exe
 c:\users\thomas\documents\visual studio 2015\Projects\dayPlan\dayPlan\obj\Debug\dayPlan.pdb
+C:\Users\Thomas\Documents\Visual Studio 2015\Projects\dayPlan\dayPlan\obj\Debug\dayPlan.resultForm.resources

@@ -12,10 +12,14 @@ namespace dayPlan
 {
     public partial class Form1 : Form
     {
+        resultForm myOutput;
         public Form1()
         {
             InitializeComponent();
-            locationBox.
+            locationBox.Enabled = false;
+            groupBox.SelectedIndex = 0;
+            activityBox.SelectedIndex = 0;
+            budgetBox.SelectedIndex = 0;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -32,6 +36,12 @@ namespace dayPlan
 
             //no bad inputs, so turn the error label off
             errorLabel.Visible = false;
+            if(myOutput != null && !myOutput.IsDisposed)
+            {
+                myOutput.Dispose();
+            }
+            myOutput = new resultForm("Hello World!");
+            myOutput.Show();
         }
     }
 }
