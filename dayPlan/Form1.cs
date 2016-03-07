@@ -13,13 +13,17 @@ namespace dayPlan
     public partial class Form1 : Form
     {
         resultForm myOutput;
+        data myData;
+        String rawData;
         public Form1()
         {
             InitializeComponent();
             locationBox.Enabled = false;
             groupBox.SelectedIndex = 0;
-            activityBox.SelectedIndex = 0;
-            budgetBox.SelectedIndex = 0;
+            activityBox.SelectedIndex = 1;
+            budgetBox.SelectedIndex = 1;
+            myData = new data();
+            rawData = myData.getData();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -40,7 +44,7 @@ namespace dayPlan
             {
                 myOutput.Dispose();
             }
-            myOutput = new resultForm("Hello World!");
+            myOutput = new resultForm(rawData);
             myOutput.Show();
         }
     }

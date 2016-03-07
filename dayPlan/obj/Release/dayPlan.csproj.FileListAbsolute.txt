@@ -6,3 +6,7 @@ C:\Users\Thomas\Documents\Visual Studio 2015\Projects\dayPlan\dayPlan\obj\Releas
 C:\Users\Thomas\Documents\Visual Studio 2015\Projects\dayPlan\dayPlan\obj\Release\dayPlan.csproj.GenerateResource.Cache
 C:\Users\Thomas\Documents\Visual Studio 2015\Projects\dayPlan\dayPlan\obj\Release\dayPlan.exe
 C:\Users\Thomas\Documents\Visual Studio 2015\Projects\dayPlan\dayPlan\obj\Release\dayPlan.pdb
+C:\Users\Thomas\Documents\Visual Studio 2015\Projects\dayPlan\dayPlan\bin\Release\GoogleMapsApi.dll
+C:\Users\Thomas\Documents\Visual Studio 2015\Projects\dayPlan\dayPlan\bin\Release\Microsoft.CompilerServices.AsyncTargetingPack.Net45.dll
+C:\Users\Thomas\Documents\Visual Studio 2015\Projects\dayPlan\dayPlan\bin\Release\GoogleMapsApi.xml
+C:\Users\Thomas\Documents\Visual Studio 2015\Projects\dayPlan\dayPlan\obj\Release\dayPlan.resultForm.resources

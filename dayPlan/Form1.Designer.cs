@@ -47,9 +47,9 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
             this.label1.Location = new System.Drawing.Point(229, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(123, 31);
+            this.label1.Size = new System.Drawing.Size(117, 31);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Vanmera";
+            this.label1.Text = "Promera";
             // 
             // locationBox
             // 
@@ -96,10 +96,10 @@
             this.groupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.groupBox.FormattingEnabled = true;
             this.groupBox.Items.AddRange(new object[] {
+            "Family and kids",
             "Family",
-            "Family with children",
-            "Singles",
-            "Date"});
+            "Adults",
+            "Teenagers"});
             this.groupBox.Location = new System.Drawing.Point(177, 98);
             this.groupBox.Name = "groupBox";
             this.groupBox.Size = new System.Drawing.Size(221, 33);
@@ -180,7 +180,7 @@
             this.Controls.Add(this.locationBox);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Vanmera";
             this.ResumeLayout(false);
             this.PerformLayout();
 
